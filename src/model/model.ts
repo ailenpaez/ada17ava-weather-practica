@@ -43,4 +43,4 @@ const getPressureLevelByTemperature = (
 // const climaFiltrado = getPressureLevelByTemperature(20);
 // console.log(climaFiltrado);
 
-export {  };
+export { getHourlyTemperatureAndHumidity, getPressureLevelByTemperature };
