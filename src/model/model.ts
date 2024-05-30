@@ -20,8 +20,8 @@ const getHourlyTemperatureAndHumidity = (): interfaces.TempAndHumidity[] => {
   }));
 };
 
-// const clima = getHourlyTemperatureAndHumidity();
-// console.log(clima);
+const clima = getHourlyTemperatureAndHumidity();
+console.table(clima);
 
 
 // `getPressureLevelByTemperature(temperature)` => Retorna una collection en la que la propiedad
@@ -40,7 +40,7 @@ const getPressureLevelByTemperature = (
     }));
 };
 
-// const climaFiltrado = getPressureLevelByTemperature(20);
-// console.log(climaFiltrado);
+const climaFiltrado = getPressureLevelByTemperature(30);
+console.table(climaFiltrado);
 
 export { getHourlyTemperatureAndHumidity, getPressureLevelByTemperature };
